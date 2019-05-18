@@ -1,0 +1,36 @@
+{
+  "name": "@jimpick/ink-watch-for-exit-key",
+  "version": "0.0.1",
+  "description": "Component for Ink/React that watches for ESC or 'q' and exits",
+  "main": "dist/inkWatchForExitKey.js",
+  "type": "module",
+  "scripts": {
+    "build": "babel *.js --out-dir ./dist",
+    "prepublish": "npm run build"
+  },
+  "keywords": [],
+  "author": "Jim Pick (@jimpick)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "sourceMaps": "inline"
+  },
+  "browserslist": "node 10",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimpick/ink-watch-for-exit-key.git"
+  },
+  "dependencies": {
+    "ink": "^2.1.1",
+    "react": "^16.8.6"
+  }
+}
