@@ -1,8 +1,9 @@
 {
   "name": "@jimpick/ink-watch-for-exit-key",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Component for Ink/React that watches for ESC or 'q' and exits",
   "main": "dist/inkWatchForExitKey.js",
+  "module": "./inkWatchForExitKey.js",
   "type": "module",
   "scripts": {
     "build": "babel *.js --out-dir ./dist",
