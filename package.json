@@ -1,6 +1,6 @@
 {
   "name": "@jimpick/ink-watch-for-exit-key",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Component for Ink/React that watches for ESC or 'q' and exits",
   "main": "dist/inkWatchForExitKey.js",
   "module": "./inkWatchForExitKey.js",
@@ -30,7 +30,7 @@
     "type": "git",
     "url": "git+https://github.com/jimpick/ink-watch-for-exit-key.git"
   },
-  "dependencies": {
+  "peerDependencies": {
     "ink": "^2.3.0",
     "react": "^16.8.6"
   }
