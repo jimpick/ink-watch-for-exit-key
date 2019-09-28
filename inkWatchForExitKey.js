@@ -12,7 +12,7 @@ function WatchForExitKey ({ stdin, setRawMode, exit }) {
         exit()
       }
     })
-  }, true)
+  }, [])
 
   return null
 }
